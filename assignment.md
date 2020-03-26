@@ -45,5 +45,5 @@ assert result == 5
 numbers = [1, 2, 3]
 target = 0
 result = solution(numbers, target)
-assert result = 3
+assert result == 3
 ~~~~
