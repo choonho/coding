@@ -2,11 +2,11 @@
 There are n non-negative integers. I am trying to create a target number by adding or subtracting this number appropriately. For example, to make the number 3 with [1, 1, 1, 1, 1], you can use the following five methods.
 
 ~~~
--1 + 1 + 1 + 1 + 1 = 3
-+ 1-1 + 1 + 1 + 1 = 3
-+ 1 + 1-1 + 1 + 1 = 3
-+ 1 + 1 + 1-1 + 1 = 3
-+ 1 + 1 + 1 + 1-1 = 3
+- 1 + 1 + 1 + 1 + 1 = 3
++ 1 - 1 + 1 + 1 + 1 = 3
++ 1 + 1 - 1 + 1 + 1 = 3
++ 1 + 1 + 1 - 1 + 1 = 3
++ 1 + 1 + 1 + 1 - 1 = 3
 ~~~
 
 Write the solution function to return the number of array numbers that can be used, the number of the target number, how to make the target number by adding and subtracting the numbers appropriately when the target is given as a parameter.
@@ -35,5 +35,5 @@ def solution(numbers, target):
 numbers = [1,1,1,1,1]
 target =  3
 result = soulution(numbers, target)
-print(result)
+assertEqual(result, 5)
 ~~~~
