@@ -28,12 +28,22 @@ Same as the example in the problem.
 
 ~~~python
 def solution(numbers, target):
-    answer = 0
+    # Your Code
+    answer = 5
+
+
     return answer
 
 
+# Testcase 1
 numbers = [1,1,1,1,1]
 target =  3
-result = soulution(numbers, target)
-assertEqual(result, 5)
+result = solution(numbers, target)
+assert result == 5
+
+# Testcase 2
+numbers = [1, 2, 3]
+target = 0
+result = solution(numbers, target)
+assert result = 3
 ~~~~
